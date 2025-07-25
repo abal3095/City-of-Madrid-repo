@@ -20,3 +20,55 @@ body {
   border: 0.3rem solid #ccc;
   background-color: #ffffff;
 }
+
+/* === PAGE LAYOUT WITH FLOATS === */
+
+/* The main content area should be on the left and take 70% width */
+main {
+  float: left;
+  width: 70%;
+  padding: 1rem;
+}
+
+/* The sidebar should be on the right and take 30% width */
+aside {
+  float: right;
+  width: 30%;
+  padding: 1rem;
+}
+
+/* The footer needs to clear the floats so it stays below */
+footer {
+  clear: both;
+}
+
+/* === HEADER AND FOOTER STYLING === */
+
+/* Style header and footer with gradient background and centered text */
+header, footer {
+  text-align: center;
+  background: linear-gradient(to right, #ffcc80, #ffe0b2); /* soft orange gradient */
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+/* Header title styling */
+header h1 {
+  font-size: 2.5rem;
+  color: #b71c1c;
+}
+
+/* Footer font should be smaller */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Section headings: color, font style, alignment */
+section h2 {
+  color: #c62828;
+  font-variant: small-caps;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-align: left;
+}
