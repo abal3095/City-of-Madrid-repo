@@ -1,88 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  header, footer {
-    text-align: center;
-    background-color: #ffe5b4;
-    padding: 1em;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  main, aside {
-    margin-bottom: 20px;
-  }
-  
-  h1, h2 {
-    color: #c62828;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-  }
-  
-  figure {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  figcaption {
-    font-size: 0.9em;
-    color: #555;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-    background-color: #fff;
-  }
-  
-  table, th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-  }
-  
-  form {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .form-label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  .form-control {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  button {
-    background-color: #c62828;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #a11818;
-  }
+/*
+  Balogun Abdullahi Gbenga - 9033095
+  This stylesheet styles my Madrid webpage using what we learned in class.
+  I followed all the assignment instructions and added comments to show what each part does.
+*/
+
+/* === ROOT AND BODY STYLING === */
+
+/* The root html element sets the base font for the page */
