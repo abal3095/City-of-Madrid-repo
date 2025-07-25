@@ -130,3 +130,101 @@ iframe {
   color: #333;
   padding: 1rem;
 }
+
+/* === LIST AND LINK STYLING === */
+
+ul {
+  list-style: none; /* removes bullets */
+  padding: 0;
+}
+
+/* Link states */
+a:link {
+  color: #b71c1c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6a1b9a;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1e88e5;
+}
+
+a:active {
+  color: #f57c00;
+}
+
+/* === TABLE STYLING === */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #ffffff;
+  background-color: #c62828;
+  padding: 1rem;
+}
+
+td {
+  border: 0.1rem solid #ccc;
+  padding: 1rem;
+}
+
+/* Alternate row colors and hover effect */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ffe0b2;
+}
+
+/* === FORM STYLING === */
+
+.form-label {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #ccc;
+}
+
+/* === RESPONSIVE DESIGN FOR SMALLER SCREENS === */
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px; /* smaller font for mobile */
+  }
+
+  main, aside {
+    float: none;
+    width: 100%;
+  }
+
+  body {
+    padding: 1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
