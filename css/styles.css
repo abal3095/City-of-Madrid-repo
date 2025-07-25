@@ -72,3 +72,39 @@ section h2 {
   font-family: Georgia, serif;
   text-align: left;
 }
+
+/* === BLOCKQUOTE STYLING === */
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 0.5rem solid #ccc;
+  width: 80%;
+  margin: 1rem auto;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* === FIGURE, IMG, FIGCAPTION STYLING === */
+
+figure {
+  border: 0.2rem solid #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.5rem;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  font-variant: small-caps;
+  color: #555;
+}
