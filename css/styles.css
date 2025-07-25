@@ -108,3 +108,25 @@ figcaption {
   font-variant: small-caps;
   color: #555;
 }
+
+/* === IFRAME VIDEO STYLING === */
+
+iframe {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  border: 0.2rem solid #999;
+}
+
+/* === QUOTE SECTION STYLING === */
+
+#quote {
+  border: 0.3rem dashed #c62828;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  width: 85%;
+  margin: 2rem auto;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #333;
+  padding: 1rem;
+}
