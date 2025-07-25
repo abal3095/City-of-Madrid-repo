@@ -4,7 +4,7 @@
   I followed all the assignment instructions and added comments to show what each part does.
 */
 
-/* === ROOT AND BODY STYLING === */
+/* Root and Body Styling */
 
 /* The root html element sets the base font for the page */
 html {
@@ -21,7 +21,7 @@ body {
   background-color: #ffffff;
 }
 
-/* === PAGE LAYOUT WITH FLOATS === */
+/* Page Layout with Floats */
 
 /* The main content area should be on the left and take 70% width */
 main {
@@ -42,7 +42,7 @@ footer {
   clear: both;
 }
 
-/* === HEADER AND FOOTER STYLING === */
+/* Header and Footer Styling */
 
 /* Style header and footer with gradient background and centered text */
 header, footer {
@@ -73,7 +73,7 @@ section h2 {
   text-align: left;
 }
 
-/* === BLOCKQUOTE STYLING === */
+/* Blockquote */
 
 blockquote {
   font-style: italic;
@@ -85,7 +85,7 @@ blockquote {
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-/* === FIGURE, IMG, FIGCAPTION STYLING === */
+/* Figure, Img, Figcaption */
 
 figure {
   border: 0.2rem solid #ddd;
@@ -109,7 +109,7 @@ figcaption {
   color: #555;
 }
 
-/* === IFRAME VIDEO STYLING === */
+/* iFrame Video Styling */
 
 iframe {
   display: block;
@@ -118,7 +118,7 @@ iframe {
   border: 0.2rem solid #999;
 }
 
-/* === QUOTE SECTION STYLING === */
+/* Quote Section Styling */
 
 #quote {
   border: 0.3rem dashed #c62828;
@@ -131,7 +131,7 @@ iframe {
   padding: 1rem;
 }
 
-/* === LIST AND LINK STYLING === */
+/* List and Link Styling */
 
 ul {
   list-style: none; /* removes bullets */
@@ -157,7 +157,7 @@ a:active {
   color: #f57c00;
 }
 
-/* === TABLE STYLING === */
+/* Table Styling */
 
 table {
   width: 100%;
@@ -179,7 +179,7 @@ td {
   padding: 1rem;
 }
 
-/* Alternate row colors and hover effect */
+/* other colours for hover effect */
 tr:nth-child(even) {
   background-color: #f9f9f9;
 }
@@ -188,7 +188,7 @@ tr:hover {
   background-color: #ffe0b2;
 }
 
-/* === FORM STYLING === */
+/* Form Styling */
 
 .form-label {
   font-variant: small-caps;
@@ -204,7 +204,7 @@ tr:hover {
   border: 0.1rem solid #ccc;
 }
 
-/* === RESPONSIVE DESIGN FOR SMALLER SCREENS === */
+/* helpful responsive for Smaller Screens like phones, tablets */
 
 @media screen and (max-width: 768px) {
   html {
