@@ -7,3 +7,16 @@
 /* === ROOT AND BODY STYLING === */
 
 /* The root html element sets the base font for the page */
+html {
+  font: italic small-caps bold 20px/1.5 Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for the full page */
+}
+
+/* Body element centers the content and adds spacing */
+body {
+  max-width: 1000px;
+  margin: 0 auto; /* centers the whole page horizontally */
+  padding: 2rem;
+  border: 0.3rem solid #ccc;
+  background-color: #ffffff;
+}
